@@ -1,0 +1,367 @@
+tplSSP4708:
+  recid:
+    id: 0
+    type: Char
+    width: 7
+    decimal: null
+  period:
+    id: 1
+    type: Char
+    width: 6
+    decimal: null
+  sp_id:
+    id: 2
+    type: Numeric
+    width: 6
+    decimal: 0
+  pst:
+    id: 3
+    type: Char
+    width: 3
+    decimal: null
+  c_br:
+    id: 4
+    type: Char
+    width: 10
+    decimal: null
+  profbr:
+    id: 5
+    type: Char
+    width: 3
+    decimal: null
+  d_u:
+    id: 6
+    type: Date
+    width: null
+    decimal: null
+  t_uz:
+    id: 7
+    type: Char
+    width: 5
+    decimal: null
+  t_up:
+    id: 8
+    type: Char
+    width: 5
+    decimal: null
+  n_u:
+    id: 9
+    type: Char
+    width: 12
+    decimal: null
+  vid_u:
+    id: 10
+    type: Char
+    width: 6
+    decimal: null
+  cod:
+    id: 11
+    type: Numeric
+    width: 6
+    decimal: 0
+  tar:
+    id: 12
+    type: Numeric
+    width: 12
+    decimal: 2
+  res:
+    id: 13
+    type: Char
+    width: 2
+    decimal: null
+  ds:
+    id: 14
+    type: Char
+    width: 6
+    decimal: null
+  fam:
+    id: 15
+    type: Char
+    width: 25
+    decimal: null
+  im:
+    id: 16
+    type: Char
+    width: 20
+    decimal: null
+  ot:
+    id: 17
+    type: Char
+    width: 20
+    decimal: null
+  w:
+    id: 18
+    type: Numeric
+    width: 1
+    decimal: 0
+  dr:
+    id: 19
+    type: Date
+    width: null
+    decimal: null
+  sn_pol:
+    id: 20
+    type: Char
+    width: 25
+    decimal: null
+  tip:
+    id: 21
+    type: Char
+    width: 1
+    decimal: null
+  qq:
+    id: 22
+    type: Char
+    width: 2
+    decimal: null
+  c_okato:
+    id: 23
+    type: Char
+    width: 5
+    decimal: null
+  v_doc:
+    id: 24
+    type: Numeric
+    width: 2
+    decimal: 0
+  s_doc:
+    id: 25
+    type: Char
+    width: 9
+    decimal: null
+  n_doc:
+    id: 26
+    type: Char
+    width: 8
+    decimal: null
+  xx:
+    id: 27
+    type: Char
+    width: 40
+    decimal: null
+  lpu_id:
+    id: 28
+    type: Numeric
+    width: 6
+    decimal: 0
+tplBRSP:
+  c_br:
+    id: 1
+    type: Char
+    width: 10
+    decimal: null
+  pst:
+    id: 2
+    type: Char
+    width: 3
+    decimal: null
+  name:
+    id: 3
+    type: Char
+    width: 250
+    decimal: null
+tplNciRes:
+  res:
+    id: 1
+    type: Char
+    width: 2
+    decimal: null
+  name:
+    id: 2
+    type: Char
+    width: 60
+    decimal: null
+tplNCIVIDU:
+  vid_u:
+    id: 1
+    type: Char
+    width: 6
+    decimal: null
+  text:
+    id: 2
+    type: Char
+    width: 50
+    decimal: null
+tplPS:
+  pst:
+    id: 1
+    type: Char
+    width: 3
+    decimal: null
+  name:
+    id: 2
+    type: Char
+    width: 250
+    decimal: null
+tplStreets:
+  strcode:
+    id: 1
+    type: Numeric
+    width: 10
+    decimal: 0
+  numbeg:
+    id: 2
+    type: Numeric
+    width: 10
+    decimal: 0
+  numend:
+    id: 3
+    type: Numeric
+    width: 10
+    decimal: 0
+  numflag:
+    id: 4
+    type: Char
+    width: 1
+    decimal: null
+  region:
+    id: 5
+    type: Numeric
+    width: 4
+    decimal: 0
+  podst:
+    id: 6
+    type: Numeric
+    width: 10
+    decimal: 0
+  ps_add:
+    id: 7
+    type: Char
+    width: 12
+    decimal: null
+  segment_id:
+    id: 8
+    type: Numeric
+    width: 10
+    decimal: 0
+  ruvd_code:
+    id: 9
+    type: Numeric
+    width: 10
+    decimal: 0
+  zags:
+    id: 10
+    type: Numeric
+    width: 10
+    decimal: 0
+  sobes:
+    id: 11
+    type: Numeric
+    width: 10
+    decimal: 0
+  fire_ps:
+    id: 12
+    type: Numeric
+    width: 10
+    decimal: 0
+  hospital:
+    id: 13
+    type: Numeric
+    width: 10
+    decimal: 0
+  ps_add1:
+    id: 14
+    type: Numeric
+    width: 10
+    decimal: 0
+  ps_add2:
+    id: 15
+    type: Numeric
+    width: 10
+    decimal: 0
+  ps_add3:
+    id: 16
+    type: Numeric
+    width: 10
+    decimal: 0
+  activity:
+    id: 17
+    type: Numeric
+    width: 1
+    decimal: 0
+tplSTREETS:
+  strcode:
+    id: 1
+    type: Numeric
+    width: 10
+    decimal: 0
+  strname:
+    id: 2
+    type: Char
+    width: 90
+    decimal: null
+  realname:
+    id: 3
+    type: Char
+    width: 90
+    decimal: null
+  strstat:
+    id: 4
+    type: Numeric
+    width: 1
+    decimal: 0
+  state:
+    id: 5
+    type: Char
+    width: 1
+    decimal: null
+  oper:
+    id: 6
+    type: Char
+    width: 1
+    decimal: null
+  nmstreet:
+    id: 7
+    type: Char
+    width: 45
+    decimal: null
+  typ_u:
+    id: 8
+    type: Numeric
+    width: 10
+    decimal: 0
+  kod_fo:
+    id: 9
+    type: Numeric
+    width: 10
+    decimal: 0
+  dat_ul:
+    id: 10
+    type: Date
+    width: null
+    decimal: null
+  kod_te:
+    id: 11
+    type: Char
+    width: 50
+    decimal: null
+  nmstreet_o:
+    id: 12
+    type: Char
+    width: 150
+    decimal: null
+  type_r:
+    id: 13
+    type: Char
+    width: 20
+    decimal: null
+  dat_old:
+    id: 14
+    type: Char
+    width: 100
+    decimal: null
+  sort:
+    id: 15
+    type: Char
+    width: 50
+    decimal: null
+  dop_sort:
+    id: 16
+    type: Char
+    width: 20
+    decimal: null
+  activity:
+    id: 17
+    type: Numeric
+    width: 1
+    decimal: 0

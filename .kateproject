@@ -1,0 +1,4 @@
+{
+ "name": "OMS",
+ "files": [ { "directory": ".", "filters": ["*.pm", "*.yml", "*.pm", "*.txt", "*.PL" ,"config*"], "recursive": 2 } ]
+}
